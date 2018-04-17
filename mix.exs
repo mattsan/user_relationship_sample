@@ -23,7 +23,8 @@ defmodule Blogger.MixProject do
   defp deps do
     [
       {:ecto, "~> 2.2"},
-      {:sqlite_ecto2, "~> 2.2"}
+      {:sqlite_ecto2, "~> 2.2"},
+      {:faker, "~> 0.10"}
     ]
   end
 end
